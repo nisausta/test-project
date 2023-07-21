@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h1{
+  color:red;
+  text-align: center;
+}
+.navbar{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+
+}
+.navbar ul{
+  display: flex;
+  list-style: none;
+
+}
+.navbar ul li{
+  margin-right: 25px ;
+
+}
+.footer{
+  align-items: center;
+  display: flex;
+  background-color: grey;
+
+  
+}
+
+.footer ul{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  list-style: none;
+
+}
+.footer ul li{
+  text-align: center;
+  margin-bottom: 15px;
+  color: antiquewhite;
+
+
+}
+a{
+  text-decoration: none;
+  color: antiquewhite;
+}
+ .main{
+  height: 1000px;
+ }
+ 
+ .hero{
+  width: 100%;
+  height: 300px;
+
+ }
+.hero img{
+object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+.card{
+  
+  width: 100%;
+  height: 325px;
+  display: flex;
+  align-items:center ;
+  justify-content: center;
+  text-align: center;
+  
+
+}
+.card h3{
+  color: red;
+}
+ .btn{
+  color: red;
+  padding: 10px 30px;
+  background-color:aqua;
+ border-radius: 10px;
+ }
+
+ .hakkımızda{
+  text-align: center;
+ }
